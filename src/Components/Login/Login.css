@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif; /* Agrega una fuente de texto por defecto */
+  background-color: #6e6060; /* Color de fondo para toda la pantalla */
+}
+
+.login-container {
+  width: 300px;
+  margin: 100px auto; /* Centra verticalmente en la pantalla */
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  background-color: #006847; /* Verde de la bandera de México */
+  color: #fff; /* Texto en color blanco */
+}
+
+.login-container h2 {
+  margin-bottom: 20px;
+}
+
+.login-container label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.login-container input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.login-container button {
+  width: 100%;
+  padding: 10px;
+  background-color: #c8102e; /* Rojo de la bandera de México */
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.login-container button:hover {
+  background-color: #820000; /* Rojo oscuro al pasar el ratón */
+}

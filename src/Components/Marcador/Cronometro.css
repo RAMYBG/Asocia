@@ -1,0 +1,61 @@
+.cronometro-container {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .cronometro-display {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #28a745; /* Verde */
+  }
+  
+  .cronometro-display span {
+    margin: 0 5px;
+  }
+  
+  .colon {
+    color: #000; /* Negro */
+  }
+  
+  .cronometro-controls {
+    margin-top: 20px;
+  }
+  
+  .start-button,
+  .stop-button,
+  .reset-button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .start-button {
+    background-color: #28a745; /* Verde */
+    color: #fff;
+  }
+  
+  .stop-button {
+    background-color: #dc3545; /* Rojo */
+    color: #fff;
+  }
+  
+  .reset-button {
+    background-color: #007bff; /* Azul */
+    color: #fff;
+  }
+
+  .registration-forms-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.registration-form {
+  flex: 4;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* Ajusta los estilos según tus necesidades */
